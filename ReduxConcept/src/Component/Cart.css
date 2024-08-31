@@ -25,3 +25,7 @@
 .cart .btn2 {
   background-color: green;
 }
+.btn2:disabled {
+  background-color: rgba(0, 0, 0, 0.19);
+  cursor: not-allowed;
+}
